@@ -1,0 +1,8 @@
+var f = {
+  d: 20
+}
+var repalceA = (b, c = f) => {
+  console.log(b, c === f)
+}
+
+repalceA (1, { d: 20 })
